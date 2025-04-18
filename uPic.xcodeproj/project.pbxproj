@@ -1123,9 +1123,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-uPic/Pods-uPic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-uPic/Pods-uPic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1579,7 +1583,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = W863J6W8DZ;
+				DEVELOPMENT_TEAM = 324F7B2X9T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/uPic/Supporting Files/Info.plist";
@@ -1613,7 +1617,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = W863J6W8DZ;
+				DEVELOPMENT_TEAM = 324F7B2X9T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/uPic/Supporting Files/Info.plist";
@@ -1638,12 +1642,12 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = uPicFinderExtension/uPicFinderExtensionDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = W863J6W8DZ;
+				DEVELOPMENT_TEAM = 324F7B2X9T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = uPicFinderExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1672,7 +1676,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = W863J6W8DZ;
+				DEVELOPMENT_TEAM = 324F7B2X9T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = uPicFinderExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1695,12 +1699,12 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = uPicShareExtension/uPicShareExtensionDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = W863J6W8DZ;
+				DEVELOPMENT_TEAM = 324F7B2X9T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = uPicShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1728,7 +1732,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = W863J6W8DZ;
+				DEVELOPMENT_TEAM = 324F7B2X9T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = uPicShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
